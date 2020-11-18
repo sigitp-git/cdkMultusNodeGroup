@@ -62,7 +62,7 @@ export class CdkMultusNodeGroupStack extends cdk.Stack {
         handler: 'attach_multus_eni.lambda_handler',
         environment: {
             SubnetId1: this.node.tryGetContext("eks.multussubnet1"),
-            SecGroupId1: this.node.tryGetContext("eks.multussecgroup")
+            SecGroupId1: this.node.tryGetContext("eks.multussecgroup1")
         }
     });
     lambdaAttachMultusEni.addToRolePolicy(attachEniPolicyStatement);
