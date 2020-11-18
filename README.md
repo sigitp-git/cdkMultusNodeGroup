@@ -17,14 +17,12 @@ After `git clone https://github.com/crosscom/cdkMultusNodeGroup.git`, please do.
 * Setting environmental variables according to your environment.
     * package.json → list all the packages required such as @aws-cdk/aws-ec2 (You don't have to change unless you do change code to use other packages).
     * cdk.json → configure variables such as vpc-id, eks cluster name, multus subnetId, security group Id and so on.
-    * To use existing VPC, below env should be in bin/cdk.ts (It's already there, you don't have to change). 
+    * To use existing VPC, below env should be in bin/cdk.ts (It's already there, you don't have to change). <br>
     ``
-    new TestStack(app, 'TestStack', {
-    env: {
+    env: { 
         account: process.env.CDK_DEPLOY_ACCOUNT || process.env.CDK_DEFAULT_ACCOUNT,
         region: process.env.CDK_DEPLOY_REGION || process.env.CDK_DEFAULT_REGION
     }
-});
     ``
 * `cdk synth` //emits the synthesized CloudFormation template
 * `cdk deploy` //deploy this stack to your default AWS account/region
