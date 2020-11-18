@@ -13,9 +13,6 @@
     "nodegroup.desired": 1,
     "eks.k8ssubnetid": "subnet-00ff77c721a379562",
     "eks.multussubnet1": "subnet-0a986ed2ffef39e6f",
-    "eks.multussubnet2": "",
-    "eks.multussubnet3": "",
-    "eks.multussubnet4": "",
-    "eks.multussecgroup": "sg-081cd3d9643f07a45"
+    "eks.multussecgroup1": "sg-081cd3d9643f07a45"
   }
 }
