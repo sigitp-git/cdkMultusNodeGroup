@@ -2,7 +2,7 @@
 This is a temporary private Git repo for CDK sample of "Multus CNI for EKS managed Nodegroup".
 
 ## HOWTO
-After Git clone, please do..
+After `git clone https://github.com/crosscom/cdkMultusNodeGroup.git`, please do..
 
 * `npm install` //for Packages installation
 * Setting environmental variables according to your environment.
