@@ -1,6 +1,16 @@
 # CDK for Multus CNI ready EKS managed NodeGroup 
 This is a temporary private Git repo for CDK sample of "Multus CNI for EKS managed Nodegroup".
 
+## Prerequisites
+* You have to install nodejs and CDK.
+`sudo yum install nodejs`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash`
+`. ~/.nvm/nvm.sh`
+`nvm install 10.23.0`
+`sudo npm install -g npm@latest` (to install 6.14.8)
+`sudo npm install -g aws-cdk`
+
+
 ## HOWTO
 After `git clone https://github.com/crosscom/cdkMultusNodeGroup.git`, please do..
 
